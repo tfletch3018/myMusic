@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import "../index.css";
-// import MediaComponent from "../components/Media";
+import Player from "../components/Media/index";
 
 function Videos() {
     return (
@@ -19,12 +19,13 @@ function Videos() {
                 <Row>
                     <Col size="md-6">
                         <p className="foot">Prelude in C# Minor</p>
-                        {/* <MediaComponent /> */}
+                        <Player />
                     </Col>
 
                         <Col size="md-6">
                             <p className="foot">Some other dope piece</p>
-                            {/* <MediaComponent /> */}
+                            <Player />
+
                         </Col>
                 </Row>
             </Container>
