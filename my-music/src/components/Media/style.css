@@ -10,3 +10,8 @@
     height:390;
     width:640;
   }
+
+  video {
+    width: 50%;
+    height: 50%;
+  }
