@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - cd my-music
         - npm install
     build:
       commands:
