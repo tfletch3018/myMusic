@@ -4,7 +4,6 @@
   "private": false,
   "homepage": "https://tfletch3018.github.io/myMusic/",
   "dependencies": {
-    "@aws-amplify/ui-react": "^5.0.4",
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
