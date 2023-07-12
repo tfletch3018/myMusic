@@ -1,0 +1,1 @@
+A full stack web application utilizing React JS, AWS S3 bucket system for back end storage and AWS Amplify for deployment. Featuring my own original recordings of piano pieces during the design and testing phases, the completed application would allow musicians to easily store and share music with intended recipients
