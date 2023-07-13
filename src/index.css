@@ -5,6 +5,7 @@
   --mint:#99ffcc;
   --forest:#004d26;
   --green: #009933;
+  --grass: #208000;
   --palepink: #ffe6e6;
   --blush:#ffccff;
   --rose:#ff9999;
@@ -24,6 +25,7 @@
   --cerulean:#9bb7d4;
   --auqa:#00b3b3;
   --royal:#0066ff;
+  --ocean: #3377ff;
   --navy: #000080;
   --greenAsh:#a0daa9;
   --thistle:#EFD4F7;
@@ -64,6 +66,31 @@ code {
   font-size: 100px;
   font-weight:bolder;
   text-align: center;
+}
+
+
+i.fab {
+  color: var(--cerulean);
+  text-shadow: 3px 3px 3px var(--ocean);
+  font-size: 80px;
+  font-weight:bolder;
+  text-align: center;
+  padding: 30px;
+}
+
+i.fab:hover {
+  color: var(--gold);
+  text-shadow: 1.5px 1.5px 1.5px var(--cornsilk);
+}
+
+i.fab:focus {
+  color: var(--raspberrySorbet);
+  text-shadow: 1.5px 1.5px 1.5px var(--blush);
+}
+
+i.fab:active {
+  color: var(--greenAsh);
+  text-shadow: 1.5px 1.5px 1.5px var(--mint);
 }
 
 nav {
