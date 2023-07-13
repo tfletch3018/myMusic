@@ -2,7 +2,8 @@
   "name": "my-music",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://tfletch3018.github.io/myMusic/",
+ 
+  "homepage": "{https://main.d3oxu15funiko7.amplifyapp.com/}/#/",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
     "@testing-library/jest-dom": "^5.16.5",
