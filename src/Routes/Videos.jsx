@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import "../index.css";
-import Player from "../components/Media/index";
+import {Player, Player2} from "../components/Media/index";
 
 function Videos() {
     return (
@@ -22,11 +22,11 @@ function Videos() {
                         <Player />
                     </Col>
 
-                        {/* <Col size="md-6">
+                         <Col size="md-6">
                             <p className="foot">Some other dope piece</p>
-                            <Player />
+                            <Player2 />
 
-                        </Col> */}
+                        </Col> 
                 </Row>
             </Container>
         </div>
