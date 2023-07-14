@@ -22,11 +22,11 @@ function Videos() {
                         <Player />
                     </Col>
 
-                        <Col size="md-6">
+                        {/* <Col size="md-6">
                             <p className="foot">Some other dope piece</p>
                             <Player />
 
-                        </Col>
+                        </Col> */}
                 </Row>
             </Container>
         </div>

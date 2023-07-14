@@ -1,8 +1,5 @@
 import React from 'react';
-import prelude1 from "../../images/prelude1.mp4";
 import "./style.css";
-
-
 
 const Player = () => {
     return (
@@ -10,7 +7,7 @@ const Player = () => {
             <video 
              controls>
                 <source 
-                src={prelude1}
+                src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/PreludeInC%23Minor.MOV"
                 type="video/mp4"
                 />
             </video>
