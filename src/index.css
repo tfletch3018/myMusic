@@ -79,18 +79,18 @@ i.fab {
 }
 
 i.fab:hover {
-  color: var(--gold);
-  text-shadow: 1.5px 1.5px 1.5px var(--cornsilk);
+  color: var(--cornsilk);
+  text-shadow: 3px 3px 3px var(--gold);
 }
 
 i.fab:focus {
   color: var(--raspberrySorbet);
-  text-shadow: 1.5px 1.5px 1.5px var(--blush);
+  text-shadow: 3px 3px 3px var(--blush);
 }
 
 i.fab:active {
   color: var(--greenAsh);
-  text-shadow: 1.5px 1.5px 1.5px var(--mint);
+  text-shadow: 3px 3px 3px var(--mint);
 }
 
 i.fas {
