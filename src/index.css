@@ -68,7 +68,6 @@ code {
   text-align: center;
 }
 
-
 i.fab {
   color: var(--cerulean);
   text-shadow: 3px 3px 3px var(--ocean);
@@ -94,8 +93,8 @@ i.fab:active {
 }
 
 i.fas {
-  color: var(--forest);
-  text-shadow: 3px 3px 3px var(--mint);
+  color: var(--mint);
+  text-shadow: 3px 3px 3px var(--forest);
   font-size: 80px;
   font-weight:bolder;
   text-align: center;
@@ -103,18 +102,18 @@ i.fas {
 }
 
 i.fas:hover {
-  color: var(--gold);
-  text-shadow: 1.5px 1.5px 1.5px var(--cornsilk);
+  color: var(--blush);
+  text-shadow: 3px 3px 3px var(--raspberrySorbet);
 }
 
 i.fas:focus {
-  color: var(--raspberrySorbet);
-  text-shadow: 1.5px 1.5px 1.5px var(--blush);
+  color: var(--cornsilk);
+  text-shadow: 3px 3px 3px var(--gold);
 }
 
 i.fas:active {
   color: var(--amethystOrchid);
-  text-shadow: 1.5px 1.5px 1.5px var(--lilac);
+  text-shadow: 3px 3px 3px var(--lilac);
 }
 
 nav {
@@ -127,36 +126,43 @@ nav {
   font-size: 24px;
 }
 
-
 nav a {
   padding: 20px;
   width: 33.33%;
   text-align: center;
   color: var(--amethystOrchid);
   text-shadow: 1.5px 1.5px 1.5px var(--lilac);
-
 }
 
 nav a:hover {
   color: var(--gold);
   text-shadow: 1.5px 1.5px 1.5px var(--cornsilk);
-
 }
 
 nav a:focus {
   color: var(--raspberrySorbet);
   text-shadow: 1.5px 1.5px 1.5px var(--blush);
-
 }
 
 nav a:active {
   color: var(--greenAsh);
   text-shadow: 1.5px 1.5px 1.5px var(--mint);
-
 }
 
 p {
   font-size: 15px;
-  color: var(--amethystOrchid);
-  text-shadow: 1px 1px 1px var(--lilac);
+  color: var(--cerulean);
+  text-shadow: 1px 1px 1px var(--ocean);
+}
+
+.foot {
+  font-size: 13px;
+  color: var(--mint);
+  text-shadow: 1px 1px 1px var(--greenAsh);
+}
+
+.homepage {
+  font-size: 20px;
+  color: var(--mint);
+  text-shadow: 1px 1px 1px var(--forest);
 }

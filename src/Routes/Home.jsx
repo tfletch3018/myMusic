@@ -15,7 +15,7 @@ function Home() {
                 </Container>
 
                 <Container>
-                <p className="text-center">Welcome to myMusic, an app that I designed to create a place where I can share my love for music with you.  Thank you for coming through and I hope you enjoy! </p>
+                <p className="text-center homepage">Welcome to myMusic, an experimental app that I designed to create a storage place that enables me to easily share my love for music.  Thank you for coming through and I hope you enjoy the videos! </p>
 
                 </Container>
 

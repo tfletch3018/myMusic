@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import "../index.css";
-import {Player, Player2} from "../components/Media/index";
+import { Player, Player2, Player3 } from "../components/Media/index";
 
 function Videos() {
     return (
@@ -18,15 +18,22 @@ function Videos() {
             <Container fluid style={{ marginTop: 20, marginBottom: 20 }}>
                 <Row>
                     <Col size="md-6">
-                        <p className="foot">Prelude in C# Minor</p>
+                        <p>Prelude in C# Minor</p>
+                        <p className="foot">by Sergei Rachmaninoff</p>
                         <Player />
                     </Col>
 
-                         <Col size="md-6">
-                            <p className="foot">Some other dope piece</p>
-                            <Player2 />
+                    <Col size="md-6">
+                        <p>The Humoresque</p>
+                        <p className="foot">by Sergei Rachmaninoff</p>
+                        <Player2 />
+                    </Col>
 
-                        </Col> 
+                    <Col size="md-6">
+                        <p>The Maple Leaf Rag</p>
+                        <p className="foot">by Scott Joplin</p>
+                        <Player3 />
+                    </Col>
                 </Row>
             </Container>
         </div>
