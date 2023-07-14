@@ -93,6 +93,30 @@ i.fab:active {
   text-shadow: 1.5px 1.5px 1.5px var(--mint);
 }
 
+i.fas {
+  color: var(--forest);
+  text-shadow: 3px 3px 3px var(--mint);
+  font-size: 80px;
+  font-weight:bolder;
+  text-align: center;
+  padding: 30px;
+}
+
+i.fas:hover {
+  color: var(--gold);
+  text-shadow: 1.5px 1.5px 1.5px var(--cornsilk);
+}
+
+i.fas:focus {
+  color: var(--raspberrySorbet);
+  text-shadow: 1.5px 1.5px 1.5px var(--blush);
+}
+
+i.fas:active {
+  color: var(--amethystOrchid);
+  text-shadow: 1.5px 1.5px 1.5px var(--lilac);
+}
+
 nav {
  width: 100%;
  overflow: auto;
