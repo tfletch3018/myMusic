@@ -7,10 +7,17 @@ A full stack web application utilizing React JS, AWS S3 bucket system for back e
 To install this repo on your local drive you would have to clone the ssh key from my repo. Head into your local drive of choice in terminal or bash and do a git clone. Once you have done a git clone you are free to start working on this project. If you want to push your changes to my repo then you would have to head into terminal/bash and do a git add . Then a git commit -m explaning the changes made, and finally a git push to push the files onto the repo.
 
 ## Usage
-If you would like to use this program on the front end then simply click on the link in the finished project section of this read me.
+
+<img src="src\images\myMusicDemo.gif" />
+
+<img src="src\images\Screenshot1.png">
+<img src="src\images\Screenshot2.png">
+<img src="src\images\Screenshot3.png">
 
 ## Finished Project!
-[Check out the deployed application on AWS Amplify](https://main.d3oxu15funiko7.amplifyapp.com/)
+[Check out the deployed application on AWS Amplify](https://main.d3oxu15funiko7.amplifyapp.com/) 
+
+[Watch the demo video](https://drive.google.com/file/d/1VLJEUtXEwfeSwChN6maHWLthkj8egwHJ/view?usp=drive_link)
 
 ## Badges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
