@@ -23,8 +23,8 @@ To install this repo on your local drive you would have to clone the ssh key fro
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
-* Full MERN stack application.
-*Components are separated, lending themselves to improved reusablitiy.
+* A full stack application.
+* Components are separated, lending themselves to improved reusablitiy.
 * Layout built utilizing React Bootstrap.
 * Back end storage facilitated through AWS S3 bucket systems
 * Feautures a mobile first design that is responsive to any viewport size.
