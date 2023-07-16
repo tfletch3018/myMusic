@@ -4,6 +4,9 @@ const social = {
     linkedin: "https://www.linkedin.com/in/tonya-fletcher-733a9450/",
     instagram: "https://www.instagram.com/tfletch4504/",
     resume: "https://drive.google.com/file/d/17DbwQBZecxzbgdpycnIilwh45uihriBj/view?usp=drive_link",
+    pitch:
+      "Welcome to myMusic, an experimental app that I designed to create a storage place that enables me to easily share my love for music.  Thank you for coming through and I hope you enjoy the videos!",
+    copyright: "Tonya Fletcher",
   };
 
   export default social;

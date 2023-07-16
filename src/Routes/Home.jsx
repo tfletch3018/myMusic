@@ -1,25 +1,25 @@
 import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
+import social from "../profile.js"
 import "../index.css";
 
 function Home() {
     return (
-        <div className="">
-           
-
-                <Container>
-                    <Row>
+        <div>
+            <Container>
+                <Row>
                     <h1 className="home">myMusic</h1>
-                    </Row>
-                </Container>
+                </Row>
+            </Container>
 
-                <Container>
-                <p className="text-center homepage">Welcome to myMusic, an experimental app that I designed to create a storage place that enables me to easily share my love for music.  Thank you for coming through and I hope you enjoy the videos! </p>
+            <Container fluid style={{ marginTop: 50 }}>
+                <p className="text-center homepage">{social.pitch} </p>
+            </Container>
 
-                </Container>
-
-          
+            <Container fluid style={{ marginTop: 50 }}>
+                <p id="not-dark" className="text-center">2023 © Copyright <strong>{social.copyright}</strong>. All Rights Reserved</p>
+            </Container>
         </div>
     );
 }
