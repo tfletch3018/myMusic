@@ -40,8 +40,23 @@ const Player3 = () => {
         </div>
     )
 }
+const Player4 = () => {
+    return (
+        <div>
+            <video 
+             controls>
+                <source 
+                src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/PreludeInG%23Minor.MOV"
+                type="video/mp4"
+                />
+            </video>
+        </div>
+    )
+}
+
 export {
     Player,
     Player2,
-    Player3
+    Player3,
+    Player4
 };
