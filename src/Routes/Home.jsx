@@ -18,7 +18,7 @@ function Home() {
             </Container>
 
             <Container fluid style={{ marginTop: 50 }}>
-                <p id="not-dark" className="text-center">2023 © Copyright <strong>{social.copyright}</strong>. All Rights Reserved</p>
+                <p id="foot" className="text-center">2023 © Copyright <strong>{social.copyright}</strong>. All Rights Reserved</p>
             </Container>
         </div>
     );

@@ -67,6 +67,54 @@ code {
   font-weight:bolder;
   text-align: center;
 }
+.home:hover {
+  color: var(--lilac);
+  text-shadow: 3px 3px 3px var(--amethystOrchid);
+}
+
+p {
+  font-size: 15px;
+  color: var(--mint);
+  text-shadow: 1px 1px 1px var(--greenAsh);
+}
+p:hover {
+  font-size: 15px;
+  color: var(--lilac);
+  text-shadow: 1px 1px 1px var(--amethystOrchid);
+}
+
+.foot {
+  font-size: 13px;
+  color: var(--cerulean);
+  text-shadow: 1px 1px 1px var(--ocean);
+}
+.foot:hover {
+  font-size: 13px;
+  color: var(--lilac);
+  text-shadow: 1px 1px 1px var(--amethystOrchid);
+}
+#foot {
+  font-size: 13px;
+  color: var(--cerulean);
+  text-shadow: 1px 1px 1px var(--ocean);
+}
+#foot:hover {
+  font-size: 13px;
+  color: var(--lilac);
+  text-shadow: 1px 1px 1px var(--amethystOrchid);
+}
+
+.homepage {
+  font-size: 20px;
+  color: var(--mint);
+  text-shadow: 1px 1px 1px var(--greenAsh);
+}
+.homepage:hover {
+  font-size: 20px;
+  color: var(--lilac);
+  text-shadow: 1px 1px 1px var(--amethystOrchid);
+}
+
 
 i.fab {
   color: var(--cerulean);
@@ -119,7 +167,6 @@ i.fas:active {
 nav {
  width: 100%;
  overflow: auto;
- /* margin-bottom: 0; */
  background-color:transparent;
   border: none;
   overflow: hidden;
@@ -147,22 +194,4 @@ nav a:focus {
 nav a:active {
   color: var(--greenAsh);
   text-shadow: 1.5px 1.5px 1.5px var(--mint);
-}
-
-p {
-  font-size: 15px;
-  color: var(--cerulean);
-  text-shadow: 1px 1px 1px var(--ocean);
-}
-
-.foot {
-  font-size: 13px;
-  color: var(--mint);
-  text-shadow: 1px 1px 1px var(--greenAsh);
-}
-
-.homepage {
-  font-size: 20px;
-  color: var(--mint);
-  text-shadow: 1px 1px 1px var(--forest);
 }
