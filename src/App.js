@@ -10,7 +10,7 @@ function App() {
     <div>
 
       <nav>
-        <Link to="/home">myMusic</Link> |{" "}
+        <Link to="/home">myMusic</Link> {" "}
         <Link to="/videos">myVideos</Link>
         <Link to="/contact">letsLinkUp</Link>
 
