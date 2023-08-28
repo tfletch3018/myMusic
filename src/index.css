@@ -199,3 +199,12 @@ nav a:active {
   text-shadow: 1.5px 1.5px 1.5px var(--mint);
   text-decoration: none;
 }
+
+#logo {
+  border-radius: 8px;
+  border: transparent;
+  box-shadow: 3px 3px 5px var(--misty);
+}
+#logo:hover {
+  box-shadow: 3px 3px 5px var(--lilac);
+}
