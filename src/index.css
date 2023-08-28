@@ -179,19 +179,23 @@ nav a {
   text-align: center;
   color: var(--amethystOrchid);
   text-shadow: 1.5px 1.5px 1.5px var(--lilac);
+  text-decoration: none;
 }
 
 nav a:hover {
   color: var(--gold);
   text-shadow: 1.5px 1.5px 1.5px var(--cornsilk);
+  text-decoration: none;
 }
 
 nav a:focus {
   color: var(--raspberrySorbet);
   text-shadow: 1.5px 1.5px 1.5px var(--blush);
+  text-decoration: none;
 }
 
 nav a:active {
   color: var(--greenAsh);
   text-shadow: 1.5px 1.5px 1.5px var(--mint);
+  text-decoration: none;
 }
