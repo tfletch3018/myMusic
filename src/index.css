@@ -124,22 +124,18 @@ i.fab {
   text-align: center;
   padding: 30px;
 }
-
 i.fab:hover {
   color: var(--cornsilk);
   text-shadow: 3px 3px 3px var(--gold);
 }
-
 i.fab:focus {
   color: var(--raspberrySorbet);
   text-shadow: 3px 3px 3px var(--blush);
 }
-
 i.fab:active {
   color: var(--greenAsh);
   text-shadow: 3px 3px 3px var(--mint);
 }
-
 i.fas {
   color: var(--mint);
   text-shadow: 3px 3px 3px var(--forest);
@@ -148,17 +144,14 @@ i.fas {
   text-align: center;
   padding: 30px;
 }
-
 i.fas:hover {
   color: var(--blush);
   text-shadow: 3px 3px 3px var(--raspberrySorbet);
 }
-
 i.fas:focus {
   color: var(--cornsilk);
   text-shadow: 3px 3px 3px var(--gold);
 }
-
 i.fas:active {
   color: var(--amethystOrchid);
   text-shadow: 3px 3px 3px var(--lilac);
