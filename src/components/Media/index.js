@@ -8,6 +8,7 @@ const Player = () => {
                 controls>
                 <source
                     src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/PreludeInG%23Minor.MOV"
+                    alt="Prelude in G# Minor"
                     type="video/mp4"
                 />
             </video>
@@ -21,6 +22,7 @@ const Player2 = () => {
                 controls>
                 <source
                     src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/MapleLeafRag.MOV"
+                    alt="The Maple Leaf Rag"
                     type="video/mp4"
                 />
             </video>
@@ -34,6 +36,7 @@ const Player3 = () => {
                 controls>
                 <source
                     src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/Humoresque.MOV"
+                    alt="The Humoresque"
                     type="video/mp4"
                 />
             </video>
@@ -47,6 +50,7 @@ const Player4 = () => {
                 controls>
                 <source
                     src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/PreludeInC%23Minor.MOV"
+                    alt="Prelude in C# Minor"
                     type="video/mp4"
                 />
             </video>
