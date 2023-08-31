@@ -19,25 +19,25 @@ function Videos() {
                 <Row>
 
                     <Col size="md-6">
-                        <p>Prelude in C# Minor</p>
+                        <p>Prelude in G# Minor</p>
                         <p className="foot">by Sergei Rachmaninoff</p>
                         <Player />
                     </Col>
 
                     <Col size="md-6">
-                        <p>The Humoresque</p>
-                        <p className="foot">by Sergei Rachmaninoff</p>
+                        <p>The Maple Leaf Rag </p>
+                        <p className="foot">by Scott Joplin</p>
                         <Player2 />
                     </Col>
 
                     <Col size="md-6">
-                        <p>The Maple Leaf Rag</p>
-                        <p className="foot">by Scott Joplin</p>
+                        <p>The Humoresque</p>
+                        <p className="foot">by Sergei Rachmaninoff</p>
                         <Player3 />
                     </Col>
 
                     <Col size="md-6">
-                        <p>Prelude in G# Minor</p>
+                        <p>Prelude in C# Minor</p>
                         <p className="foot">by Sergei Rachmaninoff</p>
                         <Player4 />
                     </Col>
