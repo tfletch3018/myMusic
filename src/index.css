@@ -1,49 +1,18 @@
 :root {
-  --lavender: #e6ccff;
-  --sea:#e6ffe6;
-  --thinMint:#E3F7D4;
   --mint:#99ffcc;
   --forest:#004d26;
-  --green: #009933;
-  --grass: #208000;
-  --palepink: #ffe6e6;
   --blush:#ffccff;
-  --rose:#ff9999;
   --raspberrySorbet:#d2386c;
-  --fire:#ff0000;
-  --rusty:#b30000;
-  --palegold:#fffbe6;
-  --marigold:#ffe4b3;
   --cornsilk: #ffffb3;
-  --whitegold:#ffff80;
-  --yellow:#ffff1a;
-  --illuminating:#f5df4d;
   --gold:#ffd700;
-  --orange:#ffa500;
-  --pale:#ffffff;
-  --sky:#b3daff;
   --cerulean:#9bb7d4;
-  --auqa:#00b3b3;
-  --royal:#0066ff;
   --ocean: #3377ff;
-  --navy: #000080;
   --greenAsh:#a0daa9;
-  --thistle:#EFD4F7;
   --lilac:#e6e6ff;
-  --lavender:#ccb3ff;
-  --orchid:#ccccff;
   --amethystOrchid: #926aa6;
-  --violet: #7733ff;
-  --purple:#990099;
-  --sand:#F7E9D4;
-  --beige:#ffe6cc;
-  --mist: #cccccc;
-  --fog: #bfbfbf;
-  --misty:#999999;
-  --slate:#413f3f;
-  --smoke:#404040;
   --dark:#000000;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

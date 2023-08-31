@@ -1,8 +1,8 @@
 :root {
   --lilac:#e6e6ff;
-  --slate:#413f3f;
   --misty:#999999;
 }
+
 .player-wrapper {
     position: relative;
     padding-top: 56.25% 
