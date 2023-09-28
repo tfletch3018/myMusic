@@ -124,3 +124,13 @@ i.fas:active {
   color: var(--amethystOrchid);
   text-shadow: 3px 3px 3px var(--lilac);
 }
+
+#myFaFab {
+  vertical-align: baseline;
+  border-radius: 5px;
+  box-shadow: 2px 3px 5px var(--mint);
+}
+#myFaFab:hover {
+  box-shadow: 3px 4px 7px var(--blush);
+
+}

@@ -1,7 +1,9 @@
 import React from "react";
-import Container from "../components/Container";
+import Container from "react-bootstrap/Container"
+// import Container from "../components/Container";
 import Row from "../components/Row";
 import social from "../profile.js"
+import myFaFab from "../images/myFaFab.jpg"
 import "../index.css";
 
 function Contact() {
@@ -24,10 +26,13 @@ function Contact() {
                     </div>
                     <div>
                         {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
+                        {social.portfolio && <a title="View my portfolio" rel="noopener noreferrer" target="_blank" href={social.portfolio}><img src={myFaFab} id="myFaFab" alt="" /></a>}
                     </div>
                 </div>
+                
             </Container>
         </div>
+        
     );
 }
 
