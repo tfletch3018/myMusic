@@ -7,6 +7,36 @@ const Player = () => {
             <video id="shimmer"
                 controls>
                 <source
+                    src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/tender_love.MOV"
+                    alt="Tender Love"
+                    type="video/mp4"
+                />
+            </video>
+        </div>
+    )
+}
+
+const Player1 = () => {
+    return (
+        <div>
+            <video id="shimmer"
+                controls>
+                <source
+                    src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/amazing_grace.MOV"
+                    alt="Amazing Grace"
+                    type="video/mp4"
+                />
+            </video>
+        </div>
+    )
+}
+
+const Player2 = () => {
+    return (
+        <div>
+            <video id="shimmer"
+                controls>
+                <source
                     src="https://user-images-32128cdd-5075-45d5-99fb-e76753fa11a4.s3.us-east-2.amazonaws.com/PreludeInG%23Minor.MOV"
                     alt="Prelude in G# Minor"
                     type="video/mp4"
@@ -15,7 +45,8 @@ const Player = () => {
         </div>
     )
 }
-const Player2 = () => {
+
+const Player3 = () => {
     return (
         <div>
             <video id="shimmer"
@@ -29,7 +60,8 @@ const Player2 = () => {
         </div>
     )
 }
-const Player3 = () => {
+
+const Player4 = () => {
     return (
         <div>
             <video id="shimmer"
@@ -43,7 +75,8 @@ const Player3 = () => {
         </div>
     )
 }
-const Player4 = () => {
+
+const Player5 = () => {
     return (
         <div>
             <video id="shimmer"
@@ -60,7 +93,9 @@ const Player4 = () => {
 
 export {
     Player,
+    Player1,
     Player2,
     Player3,
-    Player4
+    Player4,
+    Player5
 };
