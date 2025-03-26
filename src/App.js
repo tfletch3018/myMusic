@@ -6,7 +6,10 @@ import {
 } from "react-router-dom";
 import './index.css';
 import { Outlet } from 'react-router-dom';
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
+
+import Canvas from "./components/Canvas"
+
 import Home from "./Routes/Home";
 import Videos from "./Routes/Videos";
 import Contact from "./Routes/Contact";
@@ -17,7 +20,10 @@ function App() {
 
     <HashRouter>
 
-      <Navbar />
+      {/* <Navbar /> */}
+
+      <Canvas />
+
 
       <Routes>
         <Route path="/" />

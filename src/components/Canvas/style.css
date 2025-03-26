@@ -1,0 +1,87 @@
+:root {
+  --light: #ffffff;
+  --mint: #ccffee;
+  --seaglass: #66ffcc;
+  --blush: #ffccff;
+  --raspberrySorbet: #d2386c;
+  --cornsilk: #ffffb3;
+  --gold: #ffd700;
+  --greenAsh: #a0daa9;
+  --lilac: #e6e6ff;
+  --orchid: #cc99ff;
+  --amethystOrchid: #926aa6;
+  --cloudy: #cccccc;
+  --misty: #999999;
+  --smoky: #404040;
+  --dark:#000000;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-image: linear-gradient(to right, white, black);
+  border: 0;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+nav.bg-body-tertiary.mb-3.navbar.navbar-expand-md.navbar-light {
+  background: transparent !important;
+}
+
+button.navbar-toggler.collapsed {
+  background-image: linear-gradient(to bottom, var(--mint), var(--light));
+  --bs-navbar-toggler-focus-width: 0;
+}
+
+button.navbar-toggler.collapsed:hover {
+  background-image: linear-gradient(to bottom, var(--light), var(--seaglass));
+  --bs-navbar-toggler-focus-width: 0;
+}
+
+nav a {
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#logo {
+  border-radius: 8px;
+  border: transparent;
+  box-shadow: 3px 3px 5px var(--misty);
+}
+
+#logo:hover {
+  box-shadow: 3px 3px 5px var(--lilac);
+}
+
+div#offcanvasNavbar-expand-md.offcanvas.offcanvas-end.show {
+  background-image: linear-gradient(to left, var(--cloudy), var(--smoky));
+  margin-left: 10px;
+}
+
+div.offcanvas-header {
+  padding-left: 20px;
+}
+div.offcanvas-body {
+  padding-left: 35px;
+}
+
+a {
+  font-size: 25px !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  color: var(--orchid) !important;
+  text-shadow: var(--lilac) .5px 1px 1.5px;
+}
+a:hover {
+  color: #99ffcc !important;
+  text-shadow: var(--light) .5px 1.5px 4px;
+
+}
+a:focus {
+  color: var(--blush) !important
+}
+a:active {
+  color: var(--cornsilk) !important
+}

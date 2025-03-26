@@ -6,7 +6,7 @@ function MyNavbar() {
 
     return (
         <div>
-            <nav>
+            <nav class="navbar navbar-expand-sm">
                 <Link to="/"><img src={myLogo} id="logo" alt="" /></Link> {" "}
                 <Link to="/home">myMusic</Link>
                 <Link to="/videos">myVideos</Link>
