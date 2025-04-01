@@ -58,11 +58,6 @@ p {
   color: var(--mint);
   text-shadow: 1px 1px 1px var(--greenAsh);
 }
-p:hover {
-  font-size: 15px;
-  color: var(--lilac);
-  text-shadow: 1px 1px 1px var(--amethystOrchid);
-}
 
 .foot {
   font-size: 13px;
@@ -153,6 +148,7 @@ width: 600px !important;
 justify-content: center;
 align-items: center;
 }
+
 .shimmer {
   border-radius: 8px;
   border: transparent;
@@ -161,13 +157,7 @@ align-items: center;
 .shimmer:hover {
   box-shadow: 5px 2px 3px 7px var(--seaglass);
 }
-.tales {
-display:flex;
-row-gap: 20px;
-align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
-}
+
 .description {
   font-size: 25px;
   color: var(--mint);
@@ -179,9 +169,24 @@ align-items: center;
   grid-template-columns: auto auto;
   justify-content: center;
   align-items: center;
-  /* gap: 10px; */
-  /* padding: 10px; */
 }
 .grid-container > div {
   padding: 10px;
+}
+
+.myCover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+}
+
+@media (max-width: 600px) {
+  .myCover {
+    flex-direction: column;
+  }
+  #scaled {
+    width: 100%;
+    height: auto;
+  }
 }
