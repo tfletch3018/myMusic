@@ -1,16 +1,23 @@
 :root {
-  --mint:#99ffcc;
-  --forest:#004d26;
-  --blush:#ffccff;
+  --light: #ffffff;
+  --blush: #ffccff;
   --raspberrySorbet:#d2386c;
-  --cornsilk: #ffffb3;
-  --gold:#ffd700;
   --cerulean:#9bb7d4;
   --ocean: #3377ff;
+  --mint: #ccffee;
+  --seaglass: #66ffcc;
+  --minty:#99ffcc;
   --greenAsh:#a0daa9;
-  --lilac:#e6e6ff;
+  --forest:#004d26;
+  --cornsilk: #ffffb3;
+  --gold: #ffd700;
+  --lilac: #e6e6ff;
+  --orchid: #cc99ff;
   --amethystOrchid: #926aa6;
-  --dark:#000000;
+  --cloudy: #cccccc;
+  --misty: #999999;
+  --smoky: #404040;
+  --dark: #000000;
 }
 
 body {
@@ -39,6 +46,11 @@ code {
 .home:hover {
   color: var(--lilac);
   text-shadow: 3px 3px 3px var(--amethystOrchid);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -133,4 +145,43 @@ i.fas:active {
 #myFaFab:hover {
   box-shadow: 3px 4px 7px var(--blush);
 
+}
+
+.book {
+height: 600px;
+width: 600px !important;
+justify-content: center;
+align-items: center;
+}
+.shimmer {
+  border-radius: 8px;
+  border: transparent;
+  box-shadow: 5px 2px 3px 7px var(--misty);
+}
+.shimmer:hover {
+  box-shadow: 5px 2px 3px 7px var(--seaglass);
+}
+.tales {
+display:flex;
+row-gap: 20px;
+align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.description {
+  font-size: 25px;
+  color: var(--mint);
+  text-shadow: 1px 1px 1px var(--greenAsh);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  /* padding: 10px; */
+}
+.grid-container > div {
+  padding: 10px;
 }

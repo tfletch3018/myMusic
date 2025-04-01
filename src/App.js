@@ -6,13 +6,11 @@ import {
 } from "react-router-dom";
 import './index.css';
 import { Outlet } from 'react-router-dom';
-// import Navbar from "./components/Navbar";
-
 import Canvas from "./components/Canvas"
-
 import Home from "./Routes/Home";
 import Videos from "./Routes/Videos";
 import Contact from "./Routes/Contact";
+import Tales from "./Routes/Tales";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -20,14 +18,12 @@ function App() {
 
     <HashRouter>
 
-      {/* <Navbar /> */}
-
       <Canvas />
-
 
       <Routes>
         <Route path="/" />
         <Route path="/home" element={<Home />} />
+        <Route path="/home/talesAsOldAsTime" element={<Tales />} />
         <Route path="/videos" element={<Videos />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

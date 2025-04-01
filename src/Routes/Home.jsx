@@ -1,7 +1,9 @@
 import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
+import Collapse from "../components/Collapse";
 import social from "../profile.js"
+import bookCoverPage from "../images/bookCoverPage.jpg";
 import "../index.css";
 
 function Home() {
@@ -9,16 +11,29 @@ function Home() {
         <div>
             <Container>
                 <Row>
-                    <h1 className="home">myMusic</h1>
+                    <h1 className="home">Featured</h1>
                 </Row>
             </Container>
 
             <Container fluid style={{ marginTop: 50 }}>
-                <p className="text-center homepage">{social.pitch} </p>
+                <div className="center">
+                    <img className="book shimmer" src={bookCoverPage} alt="" />
+                </div>
             </Container>
 
             <Container fluid style={{ marginTop: 50 }}>
-                <p id="foot" className="text-center">2023 © Copyright <strong>{social.copyright}</strong>. All Rights Reserved</p>
+            <Row className="">
+                        <p className="center">Discover...</p>
+                        <Collapse />
+                    </Row>
+            </Container>
+
+            <Container fluid style={{ marginTop: 50 }}>
+                <p className="text-center">{social.pitch} </p>
+            </Container>
+
+            <Container fluid style={{ marginTop: 50 }}>
+                <p id="foot" className="text-center">2025 © Copyright <strong>{social.copyright}</strong>. All Rights Reserved</p>
             </Container>
         </div>
     );

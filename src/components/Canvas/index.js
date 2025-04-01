@@ -37,13 +37,13 @@ function OffCanvas () {
                                     <NavLink to="/home"
                                         href="/home"
                                     >
-                                        myMusic
+                                        myCreations
                                     </NavLink>
                                     <NavLink
                                         to="/videos"
                                         href="/videos"
                                     >
-                                        myVideos
+                                        myMusic
                                     </NavLink>
                                     <NavLink
                                         to="/contact"

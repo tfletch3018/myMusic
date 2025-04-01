@@ -1,0 +1,58 @@
+:root {
+    --light: #ffffff;
+    --mint: #ccffee;
+    --seaglass: #66ffcc;
+    --blush: #ffccff;
+    --raspberrySorbet: #d2386c;
+    --cornsilk: #ffffb3;
+    --gold: #ffd700;
+    --greenAsh: #a0daa9;
+    --lilac: #e6e6ff;
+    --orchid: #cc99ff;
+    --amethystOrchid: #926aa6;
+    --cloudy: #cccccc;
+    --misty: #999999;
+    --smoky: #404040;
+    --dark: #000000;
+}
+
+.modalBtn {
+    border-radius: 10px;
+    border: transparent;
+    color: var(--mint);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border: transparent;
+    box-shadow: 5px 3px 7px 4px var(--misty)
+}
+
+.modalBtn:hover {
+    background-color: var(--light);
+    color: var(--amethystOrchid);
+}
+
+.collapseBtn {
+    color: var(--lilac);
+    text-shadow: 4px 2px 4px var(--smoky);
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: transparent;
+    box-shadow: 5px 3px 7px 4px var(--misty)
+}
+.collapseBtn:hover {
+    background-color: var(--light);
+    color: var(--amethystOrchid);
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
