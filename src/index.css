@@ -20,6 +20,8 @@
   --dark: #000000;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -39,6 +41,7 @@ code {
 .home {
   color: var(--amethystOrchid);
   text-shadow: 3px 3px 3px var(--lilac);
+  font-family: "Merienda", cursive;
   font-size: 100px;
   font-weight:bolder;
   text-align: center;
@@ -145,6 +148,7 @@ i.fas:active {
 .book {
 height: 600px;
 width: 600px !important;
+display: flex;
 justify-content: center;
 align-items: center;
 }
@@ -165,8 +169,8 @@ align-items: center;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
+  display:grid;
+  grid-template-columns:auto auto;
   justify-content: center;
   align-items: center;
 }
@@ -181,9 +185,14 @@ align-items: center;
   gap:50px;
 }
 
+
 @media (max-width: 600px) {
   .myCover {
     flex-direction: column;
+  }
+  .book {
+    width: 100%;
+    height: auto;
   }
   #scaled {
     width: 100%;
