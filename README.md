@@ -10,9 +10,9 @@ To install this repository on your local drive clone the ssh key. Open your loca
 
 <img src="src\images\myMusicDemo.gif" >
 
-<img src="src\images\Screenshot.png" >
+<img src="src\images\Screenshot.jpg" >
 
-<img src="src\images\Screenshot1.png" > <img src="src\images\Screenshot2.png" > <img src="src\images\Screenshot3.png" >
+<img src="src\images\Screenshot1.jpg" > <img src="src\images\Screenshot2.jpg" > <img src="src\images\Screenshot3.jpg" > <img src="src\images\Screenshot4.jpg">
 
 ## Finished Project!
 [Check out the deployed application on AWS Amplify](https://main.d3oxu15funiko7.amplifyapp.com/) 
