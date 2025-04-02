@@ -15,7 +15,7 @@ function Videos() {
             <Container fluid style={{ marginTop: 20, marginBottom: 20 }}>
 
                 <div className="grid-container">
-
+{/* <div className="item-center"> */}
                     <div>
                         <p>Tender Love</p>
                         <p className="foot">by James Harris III & Terry Lewis</p>
