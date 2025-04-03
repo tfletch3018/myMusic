@@ -40,13 +40,15 @@ function Tales() {
                                 A story that is dedicated to anyone who has ever felt a sense of isolation...
                                 a reminder that you are not alone. While the circumstances of our strifes may
                                 shift and evolve, it is only human arrogance that convices us that we are "the first"
-                                or "the only one." The truth is, human beings have been experiencing the vast array
-                                of states of being from exuberance to utter despair and adapting to it all long before
-                                any of us could take a breath.
+                                or "the only..." The truth is, human beings have been experiencing the vast array
+                                of emotional states of being, from exuberance to utter despair, adapting and surviving, long before
+                                any of us alive today took a first breath.
                             </p>
                             <p className='description'>
-                                Chloe is humbled as she learns that "this too shall pass" and finds comfort and strength
-                                in the knowlege that each one of us has her own tale as old as time.
+                                Chloe is humbled as she learns the true meaning of the phrase "...and this too shall pass". 
+                                She finds comfort and strength in the realization that she is not the first to face this 
+                                particular dilema and that she is not alone. She is enlightened and profoundly impacted 
+                                by the idea that each one of us has her own tale as old as time.
                             </p>
 
                         </div>

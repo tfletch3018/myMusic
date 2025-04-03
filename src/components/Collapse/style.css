@@ -19,12 +19,13 @@
 .modalBtn {
     border-radius: 10px;
     border: transparent;
-    color: var(--mint);
-    font-size: 20px;
-    font-weight: 600;
+    color: var(--light);
+    font-size: 15px;
+    font-weight: 700;
     background-color: transparent;
     border: transparent;
-    box-shadow: 5px 3px 7px 4px var(--misty)
+    box-shadow: 5px 3px 7px 4px var(--misty);
+    padding:10px;
 }
 
 .modalBtn:hover {
@@ -44,7 +45,8 @@
     border-radius: 10px;
     background-color: transparent;
     border: transparent;
-    box-shadow: 5px 3px 7px 4px var(--misty)
+    box-shadow: 5px 3px 7px 4px var(--misty);
+    margin-bottom:15px;
 }
 .collapseBtn:hover {
     background-color: var(--light);
