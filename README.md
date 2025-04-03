@@ -17,7 +17,7 @@ To install this repository on your local drive clone the ssh key. Open your loca
 ## Finished Project!
 [Check out the deployed application on AWS Amplify](https://main.d3oxu15funiko7.amplifyapp.com/) 
 
-[Watch the demo video](https://drive.google.com/file/d/1gmLSZ4yUJZg_JuYu8XW8duUMwr-mgx0x/view?usp=sharing)
+[Watch the demo video](https://drive.google.com/file/d/1kifETKzn6Acf7auzaNARJL77mnTHri0S/view?usp=sharing)
 
 ## Badges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
