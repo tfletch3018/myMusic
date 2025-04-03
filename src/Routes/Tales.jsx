@@ -47,8 +47,8 @@ function Tales() {
                             <p className='description'>
                                 Chloe is humbled as she learns the true meaning of the phrase "...and this too shall pass". 
                                 She finds comfort and strength in the realization that she is not the first to face this 
-                                particular dilema and that she is not alone. She is enlightened and profoundly impacted 
-                                by the idea that each one of us has her own tale as old as time.
+                                particular dilemma and that she is not alone. She is enlightened and profoundly impacted 
+                                by the notion that each one of us has her own tale as old as time.
                             </p>
 
                         </div>
