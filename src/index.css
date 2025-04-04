@@ -91,6 +91,18 @@ p {
   text-shadow: 1px 1px 1px var(--amethystOrchid);
 }
 
+.linked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 i.fab {
   color: var(--cerulean);
   text-shadow: 3px 3px 3px var(--ocean);
@@ -206,9 +218,12 @@ video#shimmer {
   }
 }
 
-@media (max-width: 772px) {
+@media (max-width: 767px) {
   video#shimmer {
     margin-left: 60px;
+  }
+  .fabs {
+    flex-wrap: wrap;
   }
 }
 
