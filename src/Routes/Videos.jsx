@@ -8,7 +8,7 @@ function Videos() {
         <div className="">
 
             <Container fluid style={{ marginTop: 10 }}>
-                <h1 className="home">myMusic</h1>
+                <h1 className="home merienda-flair">myMusic</h1>
             </Container>
 
 

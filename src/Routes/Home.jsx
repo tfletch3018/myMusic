@@ -11,7 +11,7 @@ function Home() {
         <div>
             <Container>
                 <Row>
-                    <h1 className="home">Featured</h1>
+                    <h1 className="home merienda-flair">Featured</h1>
                 </Row>
             </Container>
 

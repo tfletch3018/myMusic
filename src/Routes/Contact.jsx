@@ -11,7 +11,7 @@ function Contact() {
         <div>
             <Container fluid style={{ marginBottom: 100 }}>
                 <Row>
-                    <h1 className="home">letsLinkUp</h1>
+                    <h1 className="home merienda-flair">letsLinkUp</h1>
                 </Row>
             </Container>
 
